@@ -110,7 +110,7 @@ namespace MeijerApp
             Console.WriteLine("\nSummary of status codes received and their count:");
             foreach (var statusCode in statusCodes)
             {
-                Console.WriteLine("Code: \"{0}\" \tCount: {1}", statusCode.Key, statusCode.Value);
+                Console.WriteLine("Code: \"{0,-20}\" \tCount: {1,-10}", statusCode.Key, statusCode.Value);
             }
 
             Console.WriteLine("\nAggregate contents:");
